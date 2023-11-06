@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export default prop => {
+export default () => {
 
 	// ルート間のリンクはuseNavigateをつかう
 	const navigate = useNavigate();

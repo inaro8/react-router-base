@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 
-export default prop => {
+export default () => {
 
 	// ルートパラメータを取得
 	const params = useParams();

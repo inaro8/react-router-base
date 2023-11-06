@@ -1,6 +1,6 @@
-import { useParams, useRouteError } from "react-router-dom"
+import { useRouteError } from "react-router-dom"
 
-export default prop => {
+export default () => {
 
 	// ルートで発生した例外エラーを取得
 	const error = useRouteError();
